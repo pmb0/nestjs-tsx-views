@@ -27,6 +27,18 @@ export class TsxViewsModule implements NestModule {
       .forRoutes(...(this.options.forRoutes ?? '*'))
   }
 
+  public static register(options: TsxViewsModuleOptions): DynamicModule {
+    return {
+      module: TsxViewsModule,
+      providers: [
+        {
+          provide: TSX_VIEWS_OPTIONS,
+          useValue: options,
+        },
+      ],
+    }
+  }
+
   public static registerAsync(
     options: TsxViewsModuleOptionsAsyncOptions,
   ): DynamicModule {
