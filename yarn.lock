@@ -491,9 +491,9 @@
     strip-json-comments "^3.1.1"
 
 "@heise/eslint-config@^14.0.1":
-  version "14.0.3"
-  resolved "https://registry.yarnpkg.com/@heise/eslint-config/-/eslint-config-14.0.3.tgz#2db627bcc7b46f0154ceaef144954eb1be4d7660"
-  integrity sha512-ezzOH/VQA9+L9XZsEs0LO2nq1YByYN2nz/PONjyYZAbA40EOV9AKQuEMmNad2x7CFPK4kGrQMHo7h5umEnSigg==
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/@heise/eslint-config/-/eslint-config-14.0.4.tgz#c20e5f5f9293c13336ecc4501d30d8c7c1c5ebfb"
+  integrity sha512-XgmDJea4n9C6p/oJkjKIRgQvp4cGDLruj3MitkUGMfCPabHMhbfisJ0gz5BXWETNtTJDpAhFPphc1L3OCyepqQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.4.0"
     "@typescript-eslint/parser" "^4.4.0"
@@ -3651,9 +3651,9 @@ expect@^26.6.2:
     jest-regex-util "^26.0.0"
 
 express-tsx-views@^1.2.4:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.2.5.tgz#b6685e3016a08f99d4ec9502575a81e977412c70"
-  integrity sha512-ICpEbRd20K+yqL6a8MY2zh32xgjBSHNnNe5iw7q42BEiWHAiRaBgi7ZDqjPcKXMAjmygCf7vDtHakinDRGl4ew==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.2.6.tgz#98c13d552abed6e0239942f60d6ccbfbe22e5752"
+  integrity sha512-WbEVCB0EFoL462pgzWfE4ovdVepPiSDVS7rQgkG+ou2klacYXmwRBdcrnGRijcdoyWrSzO+FI2gBMG6ZAPpQ/w==
   dependencies:
     prettier "^2.0.5"
 
@@ -3917,9 +3917,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.10.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
-  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 for-in@^1.0.2:
   version "1.0.2"
