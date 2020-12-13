@@ -1,0 +1,1 @@
+export const TSX_VIEWS_OPTIONS = 'TSX_VIEWS_OPTIONS'
