@@ -16,7 +16,7 @@
 
 # Example
 
-controller:
+Controller:
 
 ```ts
 import { Controller, Get, Render } from "@nestjs/common";
@@ -164,7 +164,3 @@ export interface TsxViewsModuleOptions extends ReactViewsOptions {
 # License
 
 nestjs-tsx-views is distributed under the MIT license. [See LICENSE](./LICENSE) for details.
-
-```
-
-```
