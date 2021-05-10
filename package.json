@@ -43,7 +43,7 @@
     "express-tsx-views": "^1.2.4",
     "husky": "^6.0.0",
     "jest": "^26.1.0",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^11.0.0",
     "pinst": "^2.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
