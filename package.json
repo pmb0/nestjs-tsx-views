@@ -1,6 +1,6 @@
 {
   "name": "nestjs-tsx-views",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Server-side JSX/TSX rendering for your NestJS application 🚀",

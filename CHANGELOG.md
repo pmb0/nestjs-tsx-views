@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.5...v1.0.6) (2021-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react to v17.0.6 ([b6e638e](https://github.com/pmb0/nestjs-tsx-views/commit/b6e638e5bf687c9c1c123c472c73d55b0f05697c))
+
 ## [1.0.5](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.4...v1.0.5) (2021-05-05)
 
 
