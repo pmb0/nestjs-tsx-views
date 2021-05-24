@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.6...v1.0.7) (2021-05-24)
+
+
+### Bug Fixes
+
+* add missing peerDependency `react@^17` ([4fa5680](https://github.com/pmb0/nestjs-tsx-views/commit/4fa5680685545e5f0da411557500a67f61fb5547))
+* cleanup dependencies ([7c79d11](https://github.com/pmb0/nestjs-tsx-views/commit/7c79d112b35d03fd87f4e2ed909b9f60a6a1276f))
+
 ## [1.0.6](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.5...v1.0.6) (2021-05-22)
 
 
