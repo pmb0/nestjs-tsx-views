@@ -59,6 +59,7 @@
     "@nestjs/core": "^7.0.0",
     "express": "^4.17.1",
     "express-tsx-views": ">= 1.2.4",
+    "react": "^17.0.1",
     "reflect-metadata": "^0.1.2"
   },
   "scripts": {
