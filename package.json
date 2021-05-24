@@ -40,6 +40,7 @@
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@types/express": "^4.17.8",
     "@types/jest": "^26.0.13",
+    "@types/react": "^17.0.0",
     "express-tsx-views": "^1.2.4",
     "husky": "^6.0.0",
     "jest": "^26.1.0",
@@ -73,7 +74,5 @@
     "prepublish": "pinst --disable",
     "postpublish": "pinst --enable"
   },
-  "dependencies": {
-    "@types/react": "^17.0.0"
-  }
+  "dependencies": {}
 }
