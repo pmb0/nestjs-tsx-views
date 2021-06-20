@@ -63,6 +63,7 @@ export default MyView;
 - [Usage](#usage)
   - [Synchronous configuration](#synchronous-configuration)
   - [Asynchronous configuration](#asynchronous-configuration)
+  - [GraphQL](#graphql)
   - [Configuration](#configuration)
 - [License](#license)
 
