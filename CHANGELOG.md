@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.7...v1.1.0) (2021-06-20)
+
+
+### Features
+
+* support GraphQL queries ([fe7077f](https://github.com/pmb0/nestjs-tsx-views/commit/fe7077ff1bfddb2f9ada6bdf701eea336b40d306))
+
 ## [1.0.7](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.6...v1.0.7) (2021-05-24)
 
 
