@@ -124,6 +124,37 @@ $ npm install --save @apollo/client cross-fetch graphql
 See `example/graphql/app.module.ts` for a working example of how to configure the NestJS module. View example:
 
 ```ts
+// example/graphql/views/my-view.tsx
+
+export interface Film {
+  id: string;
+  title: string;
+  releaseDate: string;
+}
+
+export interface AllFilms {
+  allFilms: {
+    films: Film[];
+  };
+}
+
+const MY_QUERY = gql`
+  query AllFilms {
+    allFilms {
+      films {
+        id
+        title
+        releaseDate
+      }
+    }
+  }
+`;
+
+export interface MyViewProps {
+  name: string;
+  title: string;
+}
+
 const MyView = (props: MyViewProps): ReactElement => {
   const { data, error } = useQuery<AllFilms>(MY_QUERY);
 
