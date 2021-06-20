@@ -55,6 +55,7 @@ export default MyView;
 - Fast, since the JSX/TSX files do not have to be transpiled on-the-fly with every request
 - Separate NestJS modules can use their own views directories (see [multi module example](https://github.com/pmb0/nestjs-tsx-views/blob/master/example/multiple-modules))
 - Works with compiled files (`.js` / `node`) and uncompiled files (`.tsx` / `ts-node`, `ts-jest`, ...)
+- Supports execution of GraphQL queries from JSX components
 
 # Table of contents <!-- omit in toc -->
 
@@ -109,6 +110,39 @@ If you want to use retrieve you [TSX views options](#configuration) dynamically,
   ],
 })
 export class MyModule {}
+```
+
+## GraphQL
+
+This module supports the execution of GraphQL queries from the TSX template. For this purpose `graphql`, `@apollo/client` and `cross-fetch` have to be installed separately:
+
+```sh
+$ npm install --save @apollo/client cross-fetch graphql
+```
+
+See `example/graphql/app.module.ts` for a working example of how to configure the NestJS module. View example:
+
+```ts
+const MyView = (props: MyViewProps): ReactElement => {
+  const { data, error } = useQuery<AllFilms>(MY_QUERY);
+
+  if (error) {
+    throw error;
+  }
+
+  return (
+    <MainLayout {...props}>
+      <h2>Films:</h2>
+      {data?.allFilms.films.map((film) => (
+        <ul key={film.id}>
+          {film.title} ({new Date(film.releaseDate).getFullYear()})
+        </ul>
+      ))}
+    </MainLayout>
+  );
+};
+
+export default MyView;
 ```
 
 ## Configuration
