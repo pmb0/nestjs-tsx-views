@@ -588,10 +588,10 @@
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.0.tgz#0eee6373e11418bfe0b5638f654df7a4ca6a3950"
   integrity sha512-wYn6r8zVZyQJ6rQaALBEln5B1pzxb9shV5Ef97kTvn6yVGrqyXVnDqnU24MXnFubR+rZjBY9NWuxX3FB2sTsjg==
 
-"@heise/eslint-config@^17.0.3":
-  version "17.0.8"
-  resolved "https://registry.yarnpkg.com/@heise/eslint-config/-/eslint-config-17.0.8.tgz#dc10f2633346108a3fc0467d8e0793ae768db070"
-  integrity sha512-8qchMuZdqF8DrWYiQh212CPw92cf2/LpNQb1G+YSwkLLG1eyARiEEIgN1cNivwjNl2fbNG8JBMWb2Ud+oiAHTw==
+"@heise/eslint-config@^18.0.0":
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/@heise/eslint-config/-/eslint-config-18.0.1.tgz#21d9a329deb08980edf39617df5d05b860d5fdde"
+  integrity sha512-v54yQCQNb2Ow2TUbGO3wFBsLDnEOmfJ3BWTv9k+039Q7P+84LbaVZxtc4E7BFkhGm1FrFkw7AuvOn7s772kP4A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.4.0"
     "@typescript-eslint/parser" "^4.4.0"
@@ -603,9 +603,9 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-react "^7.21.4"
     eslint-plugin-security "^1.4.0"
-    eslint-plugin-sonarjs "^0.8.0-125"
+    eslint-plugin-sonarjs "^0.9.1"
     eslint-plugin-toplevel "^1.0.1"
-    eslint-plugin-unicorn "^32.0.1"
+    eslint-plugin-unicorn "^34.0.1"
     prettier "^2.1.2"
 
 "@humanwhocodes/config-array@^0.5.0":
@@ -2467,7 +2467,7 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
-ci-info@^3.1.1:
+ci-info@^3.1.1, ci-info@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
   integrity sha512-dVqRX7fLUm8J6FgHJ418XuIgDLZDkYcDFTeL6TA2gt5WlIZUQrrH6EZrNClwT/H0FateUsZkGIOPRrLbP+PR9A==
@@ -3327,26 +3327,25 @@ eslint-plugin-security@^1.4.0:
   dependencies:
     safe-regex "^1.1.0"
 
-eslint-plugin-sonarjs@^0.8.0-125:
-  version "0.8.0-125"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.8.0-125.tgz#d19fc8a579bb3b2a16879b6375516c9c3c12e60c"
-  integrity sha512-/nl3Yzy8cHxCj5ohQL8dEqK2AhQqjTM/oXz5K3bU/7XbsBTz0BgyEsDvdz7gdtRlAe0Hzrf2v3qLVHA506Qheg==
+eslint-plugin-sonarjs@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.9.1.tgz#a3c63ab0d267bfb69863159e42c8081b01fd3ac6"
+  integrity sha512-KKFofk1LPjGHWeAZijYWv32c/C4mz+OAeBNVxhxHu1hknrTOhu415MWC8qKdAdsmOlBPShs9evM4mI1o7MNMhw==
 
 eslint-plugin-toplevel@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-toplevel/-/eslint-plugin-toplevel-1.0.1.tgz#147e108b3468f3b8c67f4215a5c590bb41be5d39"
   integrity sha512-qSJFK86cy0VZ9gSPE8ux9h6Qe8gG5/Kif9LDq2Ve1w8/JPdNXle9jzDaHO1sNeciJKwRo3nnsV4XysXIr9lPsA==
 
-eslint-plugin-unicorn@^32.0.1:
-  version "32.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-32.0.1.tgz#a7cb9f538441b78936a96261eea4392d76526d77"
-  integrity sha512-LaZ9utnXtOJjnoDkpm+nQsONUUmyRR0WD6PGROSdQRRW3LRmgK/ZP8wxjW+Ai+2uolKTtuJzLx2mvbIeIoLqpg==
+eslint-plugin-unicorn@^34.0.1:
+  version "34.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-34.0.1.tgz#e31cfaf487591599ff1f1b1e74776cce59dcc3ae"
+  integrity sha512-GUBtRYRhPVOW/GDu6QtOjrneSZxY/MulOT8puJU+47VKCzNmMgS/iHO2gZqoQ7KPMrpNYlebUlvCWy3IR1USVQ==
   dependencies:
-    ci-info "^3.1.1"
+    ci-info "^3.2.0"
     clean-regexp "^1.0.0"
     eslint-template-visitor "^2.3.2"
-    eslint-utils "^2.1.0"
-    import-modules "^2.1.0"
+    eslint-utils "^3.0.0"
     is-builtin-module "^3.1.0"
     lodash "^4.17.21"
     pluralize "^8.0.0"
@@ -4254,11 +4253,6 @@ import-local@^3.0.2:
   dependencies:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
-
-import-modules@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/import-modules/-/import-modules-2.1.0.tgz#abe7df297cb6c1f19b57246eb8b8bd9664b6d8c2"
-  integrity sha512-8HEWcnkbGpovH9yInoisxaSoIg9Brbul+Ju3Kqe2UsYDUBJD/iQjSgEj0zPcTDPKfPp2fs5xlv1i+JSye/m1/A==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
