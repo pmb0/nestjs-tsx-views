@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/pmb0/nestjs-tsx-views/compare/v1.2.0...v1.2.1) (2021-07-31)
+
+
+### Bug Fixes
+
+* add missing export ([2816cec](https://github.com/pmb0/nestjs-tsx-views/commit/2816cec7eaa70ddef252a3cb9fafaf70c3fb9f85))
+* upgrade deps ([e722496](https://github.com/pmb0/nestjs-tsx-views/commit/e722496f23c6b5a9af059d6a611bf61222d69e67))
+
 # [1.2.0](https://github.com/pmb0/nestjs-tsx-views/compare/v1.1.0...v1.2.0) (2021-07-31)
 
 
