@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/pmb0/nestjs-tsx-views/compare/v1.1.0...v1.2.0) (2021-07-31)
+
+
+### Bug Fixes
+
+* upgrade deps ([0b7ad5c](https://github.com/pmb0/nestjs-tsx-views/commit/0b7ad5ce6ca60d02e91c5e716c3cf735096d1e57))
+
+
+### Features
+
+* support React contexts ([84c239f](https://github.com/pmb0/nestjs-tsx-views/commit/84c239f0e6c4a50dc4742cb57791e1c9083836c6))
+
 # [1.1.0](https://github.com/pmb0/nestjs-tsx-views/compare/v1.0.7...v1.1.0) (2021-06-20)
 
 
