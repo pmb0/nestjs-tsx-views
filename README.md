@@ -55,6 +55,7 @@ export default MyView;
 - Fast, since the JSX/TSX files do not have to be transpiled on-the-fly with every request
 - Separate NestJS modules can use their own views directories (see [multi module example](https://github.com/pmb0/nestjs-tsx-views/blob/master/example/multiple-modules))
 - Works with compiled files (`.js` / `node`) and uncompiled files (`.tsx` / `ts-node`, `ts-jest`, ...)
+- Provides React contexts
 - Supports execution of GraphQL queries from JSX components
 
 # Table of contents <!-- omit in toc -->
@@ -63,6 +64,7 @@ export default MyView;
 - [Usage](#usage)
   - [Synchronous configuration](#synchronous-configuration)
   - [Asynchronous configuration](#asynchronous-configuration)
+  - [React Context](#react-context)
   - [GraphQL](#graphql)
   - [Configuration](#configuration)
 - [License](#license)
@@ -111,6 +113,49 @@ If you want to use retrieve you [TSX views options](#configuration) dynamically,
   ],
 })
 export class MyModule {}
+```
+
+## React Context
+
+1. Define a React context:
+
+```tsx
+import { createContext } from 'react'
+
+export interface MyContextProps {
+  name: string
+}
+
+export const MyContext = createContext<MyContextProps | undefined>
+```
+
+2. Set the context in your controller (or provider):
+
+```ts
+@Controller()
+export class AppController {
+  constructor(private readonly ssr: TsxViewsService) {}
+
+  @Get()
+  @Render("my-view")
+  index() {
+    this.#ssr.addContext(MyContext, { name: "My context data" });
+
+    return {};
+  }
+}
+```
+
+3. Use it somewhere in your component:
+
+```tsx
+import { useContext } from "react";
+import { MyContext } from "./my-context";
+
+export function MyComponent() {
+  const { name } = useContext(MyContext);
+  return <span>Hallo, {name}!</span>;
+}
 ```
 
 ## GraphQL

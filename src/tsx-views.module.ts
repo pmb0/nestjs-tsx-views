@@ -13,6 +13,7 @@ import {
   TsxViewsModuleOptionsFactory,
 } from './tsx-views.interface'
 import { TsxViewsMiddleware } from './tsx-views.middleware'
+import { TsxViewsService } from './tsx-views.service'
 
 @Module({})
 export class TsxViewsModule implements NestModule {
@@ -46,8 +47,12 @@ export class TsxViewsModule implements NestModule {
     return {
       module: TsxViewsModule,
       imports: options.imports,
-      providers: [...(options.extraProviders ?? []), ...providers],
-      exports: [...providers],
+      providers: [
+        TsxViewsService,
+        ...(options.extraProviders ?? []),
+        ...providers,
+      ],
+      exports: [TsxViewsService, ...providers],
     }
   }
 
