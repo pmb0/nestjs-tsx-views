@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/pmb0/nestjs-tsx-views/compare/v1.2.3...v1.2.4) (2021-08-03)
+
+
+### Bug Fixes
+
+* upgrade deps ([1bffc23](https://github.com/pmb0/nestjs-tsx-views/commit/1bffc233b8658ab36f41f97d0746d628c1aea480))
+
 ## [1.2.3](https://github.com/pmb0/nestjs-tsx-views/compare/v1.2.2...v1.2.3) (2021-08-02)
 
 
