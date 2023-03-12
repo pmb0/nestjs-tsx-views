@@ -1,3 +1,11 @@
+## [1.2.6](https://github.com/pmb0/nestjs-tsx-views/compare/v1.2.5...v1.2.6) (2023-03-12)
+
+
+### Bug Fixes
+
+* peer deps ([f365da6](https://github.com/pmb0/nestjs-tsx-views/commit/f365da6c76b750502ace11d60c8c7c4cfb6a47d9))
+* upgrade deps ([90d0195](https://github.com/pmb0/nestjs-tsx-views/commit/90d01956519ceb85e0a1c8bb3588f91471318872))
+
 ## [1.2.5](https://github.com/pmb0/nestjs-tsx-views/compare/v1.2.4...v1.2.5) (2021-08-20)
 
 
