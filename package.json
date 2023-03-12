@@ -45,7 +45,7 @@
     "cross-fetch": "^3.1.4",
     "express-tsx-views": "^1.3.1",
     "graphql": "^15.5.1",
-    "husky": "^7.0.0",
+    "husky": "^8.0.0",
     "jest": "^27.0.0",
     "lint-staged": "^11.0.0",
     "pinst": "^2.1.1",
