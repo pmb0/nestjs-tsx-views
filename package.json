@@ -60,12 +60,12 @@
     "typescript": "^4.0.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "^7.0.0 || ^8.0.0",
-    "@nestjs/core": "^7.0.0 || ^8.0.0",
+    "@nestjs/common": "*",
+    "@nestjs/core": "*",
     "express": "^4.17.1",
     "express-tsx-views": ">= 1.3.1",
-    "react": "^17.0.1",
-    "reflect-metadata": "^0.1.2"
+    "react": "*",
+    "reflect-metadata": "*"
   },
   "scripts": {
     "build:test": "tsc --noEmit",
