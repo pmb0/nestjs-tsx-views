@@ -3333,9 +3333,9 @@ expect@^27.5.1:
     jest-message-util "^27.5.1"
 
 express-tsx-views@^1.3.1:
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.4.13.tgz#5c7121af37283cd40d3168e6f3ff2f495ac71dd9"
-  integrity sha512-hCWa3b/R4tqB7T1Dam2joWRSzPtzmbJ7SU3ddfkuWb8E6mz06zicY107r2pjC2F7dD4TnTO7lABq+bfWOX570g==
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.4.14.tgz#a35be02f23a8fcec1c6c44470f418817603fb48e"
+  integrity sha512-yrFJ1QmdF9iAknZlJKZ018f4WTMnfgqucyeFqmWxmjMvmZXdZ/ChVUkHIwKWouwqxIMXmldp14qvKS3K1X3SPQ==
   dependencies:
     prettier "^2.0.5"
 
