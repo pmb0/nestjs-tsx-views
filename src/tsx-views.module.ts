@@ -6,14 +6,14 @@ import {
   NestModule,
   Provider,
 } from '@nestjs/common'
-import { TSX_VIEWS_OPTIONS } from './tsx-views.constants'
+import { TSX_VIEWS_OPTIONS } from './tsx-views.constants.js'
 import {
   TsxViewsModuleOptions,
   TsxViewsModuleOptionsAsyncOptions,
   TsxViewsModuleOptionsFactory,
-} from './tsx-views.interface'
-import { TsxViewsMiddleware } from './tsx-views.middleware'
-import { TsxViewsService } from './tsx-views.service'
+} from './tsx-views.interface.js'
+import { TsxViewsMiddleware } from './tsx-views.middleware.js'
+import { TsxViewsService } from './tsx-views.service.js'
 
 @Module({})
 export class TsxViewsModule implements NestModule {

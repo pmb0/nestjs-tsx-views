@@ -8,20 +8,22 @@
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "jsx": "react",
-    "module": "commonjs",
+    "module": "ES2020",
     "outDir": "./dist",
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "es2019"
+    "target": "es2019",
+    "moduleResolution": "Node16",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*",
-    "__tests__/**/*",
-    "example/**/*",
-    "__mocks__/**/*",
-    "index.ts"
   ],
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
