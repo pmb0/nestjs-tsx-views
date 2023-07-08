@@ -1,6 +1,6 @@
 {
   "name": "nestjs-tsx-views",
-  "version": "^2.0.0-beta.0",
+  "version": "2.0.0-beta.0",
   "main": "dist/index.js",
   "description": "Server-side JSX/TSX rendering for your NestJS application 🚀",
   "author": "Philipp Busse",
@@ -76,7 +76,7 @@
     "start:graphql": "nodemon dist/example/graphql/main.ts",
     "start:multiple-modules": "nodemon dist/example/multiple-modules/main.ts",
     "test": "jest",
-    "_postinstall": "is-ci || husky install",
+    "postinstall": "is-ci || husky install",
     "prepublish": "pinst --disable",
     "postpublish": "pinst --enable"
   },
