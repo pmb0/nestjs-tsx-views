@@ -1,6 +1,6 @@
 import React, { ReactElement, useContext } from 'react'
-import { MainLayout } from './layouts/main'
-import { MyContext } from './my-context'
+import { MainLayout } from './layouts/main.js'
+import { MyContext } from './my-context.js'
 
 export interface MyViewProps {
   name: string

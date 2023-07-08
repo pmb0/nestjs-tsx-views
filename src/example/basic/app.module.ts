@@ -1,16 +1,18 @@
 import { Module } from '@nestjs/common'
+import { fileURLToPath, URL } from 'node:url'
 import { resolve } from 'path'
-import { TsxViewsModule } from '../../src'
-import { AppController } from './app.controller'
+import { TsxViewsModule } from '../../index.js'
+import { AppController } from './app.controller.js'
+
+const dirname = fileURLToPath(new URL('.', import.meta.url))
 
 @Module({
   imports: [
     TsxViewsModule.registerAsync({
       useFactory: () => ({
-        viewsDirectory: resolve(__dirname, './views'),
+        viewsDirectory: resolve(dirname, './views'),
         prettify: true,
         exclude: ['/throws-exception'],
-        forRoutes: [AppController],
       }),
     }),
   ],

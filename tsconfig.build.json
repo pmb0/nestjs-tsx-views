@@ -3,7 +3,6 @@
   "exclude": [
     "node_modules",
     "__tests__",
-    "example",
     "test",
     "dist",
     "**/*spec.ts",

@@ -1,8 +1,8 @@
 import { Inject, Injectable, NestMiddleware } from '@nestjs/common'
 import { Request, Response } from 'express'
 import { setupReactViews } from 'express-tsx-views'
-import { TSX_VIEWS_OPTIONS } from './tsx-views.constants'
-import { TsxViewsModuleOptions } from './tsx-views.interface'
+import { TSX_VIEWS_OPTIONS } from './tsx-views.constants.js'
+import { TsxViewsModuleOptions } from './tsx-views.interface.js'
 
 @Injectable()
 export class TsxViewsMiddleware implements NestMiddleware {

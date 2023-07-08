@@ -1,7 +1,7 @@
 import { Controller, Get, Render } from '@nestjs/common'
-import { TsxViewsService } from '../../src/tsx-views.service'
-import { MyContext } from './views/my-context'
-import { MyViewProps } from './views/my-view'
+import { TsxViewsService } from '../../index.js'
+import { MyContext } from './views/my-context.js'
+import { MyViewProps } from './views/my-view.js'
 
 @Controller()
 export class AppController {
