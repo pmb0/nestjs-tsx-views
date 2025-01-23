@@ -3333,9 +3333,9 @@ expect@^27.5.1:
     jest-message-util "^27.5.1"
 
 express-tsx-views@^1.3.1:
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.4.13.tgz#5c7121af37283cd40d3168e6f3ff2f495ac71dd9"
-  integrity sha512-hCWa3b/R4tqB7T1Dam2joWRSzPtzmbJ7SU3ddfkuWb8E6mz06zicY107r2pjC2F7dD4TnTO7lABq+bfWOX570g==
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/express-tsx-views/-/express-tsx-views-1.4.14.tgz#a35be02f23a8fcec1c6c44470f418817603fb48e"
+  integrity sha512-yrFJ1QmdF9iAknZlJKZ018f4WTMnfgqucyeFqmWxmjMvmZXdZ/ChVUkHIwKWouwqxIMXmldp14qvKS3K1X3SPQ==
   dependencies:
     prettier "^2.0.5"
 
@@ -6360,7 +6360,12 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.0.5, prettier@^2.8.4:
+prettier@^2.0.5:
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
+
+prettier@^2.8.4:
   version "2.8.4"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
